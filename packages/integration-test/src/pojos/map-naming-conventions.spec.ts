@@ -5,7 +5,7 @@ import {
     PascalCaseNamingConvention,
     SnakeCaseNamingConvention,
 } from 'automapper-core';
-import { pojos, PojosMetadataMap } from '@automapper/pojos';
+import { pojos, PojosMetadataMap } from 'automapper-pojos';
 import { PascalUserDto, SnakeUserDto, UserDto } from './dtos/user.dto';
 import { PascalUser, SnakeUser, User } from './models/user';
 import {

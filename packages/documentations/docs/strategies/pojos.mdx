@@ -7,21 +7,21 @@ sidebar_position: 2
 
 ## Overview
 
-`@automapper/pojos` is an official strategy that works with TS Interface-based projects.
+`automapper-pojos` is an official strategy that works with TS Interface-based projects.
 
 ## Installation
 
 ```shell
-npm i automapper-core @automapper/pojos
+npm i automapper-core automapper-pojos
 ```
 
 ```shell
-yarn add automapper-core @automapper/pojos
+yarn add automapper-core automapper-pojos
 ```
 
 ## Usage
 
-Different from `automapper-classes`, `@automapper/pojos` exports a singleton `PojosMetadataMap` so we can provide the metadata for `pojos`.
+Different from `automapper-classes`, `automapper-pojos` exports a singleton `PojosMetadataMap` so we can provide the metadata for `pojos`.
 
 ```ts
 interface User {
@@ -77,7 +77,7 @@ const dto = mapper.map<User, UserDto>(
 
 ## Metadata
 
-As seen above, `PojosMetadataMap` is a way that `@automapper/pojos` use to keep track of the Interface's metadata.
+As seen above, `PojosMetadataMap` is a way that `automapper-pojos` use to keep track of the Interface's metadata.
 
 ### `PojosMetadataMap.create()`
 

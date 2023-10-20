@@ -3,7 +3,7 @@ import {
     CamelCaseNamingConvention,
     createMapper,
 } from 'automapper-core';
-import { pojos, PojosMetadataMap } from '@automapper/pojos';
+import { pojos, PojosMetadataMap } from 'automapper-pojos';
 import { TypeConverterDto } from './dtos/type-converter.dto';
 import { TypeConverter } from './models/type-converter';
 import { typeConverterProfile } from './profiles/type-converter.profile';

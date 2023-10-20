@@ -1,6 +1,6 @@
 import type { Mapper, MappingProfile } from 'automapper-core';
 import { createMap, forMember, mapFrom, mapWith } from 'automapper-core';
-import { AutomapperProfile, InjectMapper } from '@automapper/nestjs';
+import { AutomapperProfile, InjectMapper } from 'automapper-nestj';
 import { Injectable } from '@nestjs/common';
 import { Bar, BarDto, Foo, FooDto } from './foo';
 

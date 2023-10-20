@@ -4,16 +4,16 @@ title: Usage with NestJS
 sidebar_label: Usage with NestJS
 ---
 
-`@automapper/nestjs` is the official integration for [NestJS](https://nestjs.com).
+`automapper-nestj` is the official integration for [NestJS](https://nestjs.com).
 
 ## Installation
 
 ```shell
-npm i automapper-core @automapper/nestjs
+npm i automapper-core automapper-nestj
 ```
 
 ```shell
-yarn add automapper-core @automapper/nestjs
+yarn add automapper-core automapper-nestj
 ```
 
 ### Strategy
@@ -25,7 +25,7 @@ Recommendation is to use `automapper-classes` in a NestJS application.
 -   Call `AutomapperModule.forRoot()` in `AppModule`
 
 ```ts
-import { AutomapperModule } from '@automapper/nestjs';
+import { AutomapperModule } from 'automapper-nestj';
 import { classes } from 'automapper-classes';
 
 // single strategy
@@ -75,7 +75,7 @@ TBD: `AutomapperModule.forRootAsync()`
 `AutomapperProfile` is an `Injectable` in NestJS. Make sure to `extends AutomapperProfile`
 
 ```ts
-import { AutomapperProfile, InjectMapper } from '@automapper/nestjs';
+import { AutomapperProfile, InjectMapper } from 'automapper-nestj';
 import type { Mapper } from 'automapper-core';
 import { Injectable } from '@nestjs/common';
 import { createMap } from 'automapper-core';
@@ -111,7 +111,7 @@ export class UserModule {}
 Same concept as [Share Configuration using MappingProfile](./tutorial/mapping-profile#share-mappingconfiguration), `AutomapperProfile` has an optional `protected get mappingConfigurations()` that subclasses can override to provide an array of `MappingConfiguration`. These configurations are passed to all `createMap()` in `get profile()`
 
 ```ts
-import { AutomapperProfile, InjectMapper } from '@automapper/nestjs';
+import { AutomapperProfile, InjectMapper } from 'automapper-nestj';
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
@@ -137,11 +137,11 @@ export class UserProfile extends AutomapperProfile {
 
 ## `MapInterceptor`
 
-`@automapper/nestjs` provides `MapInterceptor`. In cases where you do not care about annotating the correct return type for a **Controller#method** and want your **Service** to be a little cleaner, you can utilize the `MapInterceptor` to execute the mapping.
+`automapper-nestj` provides `MapInterceptor`. In cases where you do not care about annotating the correct return type for a **Controller#method** and want your **Service** to be a little cleaner, you can utilize the `MapInterceptor` to execute the mapping.
 
 ```ts
 import { UseInterceptors } from '@nestjs/common';
-import { MapInterceptor } from '@automapper/nestjs';
+import { MapInterceptor } from 'automapper-nestj';
 
 export class UserController {
     @Get('me')
@@ -164,10 +164,10 @@ MapInterceptor(sourceModelType, destinationModelType, {
 
 ## `MapPipe`
 
-`@automapper/nestjs` provides `MapPipe`. When you want to transform the incoming request body before it gets to the route handler, you can utilize `MapPipe` to achieve this behavior
+`automapper-nestj` provides `MapPipe`. When you want to transform the incoming request body before it gets to the route handler, you can utilize `MapPipe` to achieve this behavior
 
 ```ts
-import { MapPipe } from '@automapper/nestjs';
+import { MapPipe } from 'automapper-nestj';
 
 @Post('/from-body')
 postFromBody(@Body(MapPipe(User, UserDto)) user: UserDto) {
@@ -179,7 +179,7 @@ postFromBody(@Body(MapPipe(User, UserDto)) user: UserDto) {
 `MapPipe` only works with `@Body` or `@Query`.
 
 ```ts
-import { MapPipe } from '@automapper/nestjs';
+import { MapPipe } from 'automapper-nestj';
 
 @Get('/from-query')
 getFromQuery(@Query(MapPipe(User, UserDto)) user: UserDto) {

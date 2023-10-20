@@ -6,7 +6,7 @@ import {
     fromValue,
     SnakeCaseNamingConvention,
 } from 'automapper-core';
-import { pojos, PojosMetadataMap } from '@automapper/pojos';
+import { pojos, PojosMetadataMap } from 'automapper-pojos';
 import {
     createDeepNestDtoMetadata,
     FooBarBazDto,

@@ -1,6 +1,6 @@
 import { classes } from 'automapper-classes';
 import { CamelCaseNamingConvention } from 'automapper-core';
-import { AutomapperModule } from '@automapper/nestjs';
+import { AutomapperModule } from 'automapper-nestj';
 import { INestApplication } from '@nestjs/common';
 import { Test } from '@nestjs/testing';
 import * as request from 'supertest';

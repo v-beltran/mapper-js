@@ -1,22 +1,22 @@
-# @automapper/nestjs
+# automapper-nestj
 
 This is a NestJS module to integrate `@automapper` with NestJS.
 
 ## Installation
 
 ```sh
-npm i @automapper/nestjs
+npm i automapper-nestj
 ```
 
 or with `yarn`:
 
 ```sh
-yarn add @automapper/nestjs
+yarn add automapper-nestj
 ```
 
 #### `peerDependencies`
 
-`@automapper/nestjs` depends on `automapper-core`
+`automapper-nestj` depends on `automapper-core`
 
 ```sh
 npm i automapper-core

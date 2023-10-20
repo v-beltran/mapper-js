@@ -73,10 +73,10 @@ body:
               - label: "I don't know."
               - label: '<code>automapper-core</code>'
               - label: '<code>automapper-classes</code>'
-              - label: '<code>@automapper/nestjs</code>'
-              - label: '<code>@automapper/pojos</code>'
-              - label: '<code>@automapper/mikro</code>'
-              - label: '<code>@automapper/sequelize</code>'
+              - label: '<code>automapper-nestj</code>'
+              - label: '<code>automapper-pojos</code>'
+              - label: '<code>automapper-mikro</code>'
+              - label: '<code>automapper-sequelize</code>'
               - label: 'Other (see below)'
 
     - type: input

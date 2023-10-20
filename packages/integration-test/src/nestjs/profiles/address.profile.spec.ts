@@ -1,7 +1,7 @@
 import { classes } from 'automapper-classes';
 import type { Mapper } from 'automapper-core';
 import { createMapper } from 'automapper-core';
-import { getMapperToken } from '@automapper/nestjs';
+import { getMapperToken } from 'automapper-nestj';
 import { Test } from '@nestjs/testing';
 import { AddressDto } from '../../classes/dtos/address.dto';
 import { Address } from '../../classes/models/address';

@@ -53,7 +53,7 @@ A Strategy will be responsible for:
 `@automapper` provides the following official strategies:
 
 -   `automapper-classes`: Work with TS/ES6 classes.
--   `@automapper/pojos`: Work with Interfaces/Types along with POJOs. In projects that do not make use of Class, `pojos`
+-   `automapper-pojos`: Work with Interfaces/Types along with POJOs. In projects that do not make use of Class, `pojos`
     can be used instead.
--   `@automapper/mikro`: Work together with TS/ES6 classes along with [MikroORM](https://github.com/mikro-orm/mikro-orm)
--   `@automapper/sequelize`: Work together with TS/ES6 classes along with [Sequelize](https://github.com/sequelize/sequelize)
+-   `automapper-mikro`: Work together with TS/ES6 classes along with [MikroORM](https://github.com/mikro-orm/mikro-orm)
+-   `automapper-sequelize`: Work together with TS/ES6 classes along with [Sequelize](https://github.com/sequelize/sequelize)
