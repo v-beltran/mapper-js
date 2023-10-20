@@ -1,7 +1,7 @@
 import { classes } from 'automapper-classes';
 import type { Mapper } from 'automapper-core';
 import { createMapper } from 'automapper-core';
-import { getMapperToken } from 'automapper-nestj';
+import { getMapperToken } from 'automapper-nestjs';
 import { Test } from '@nestjs/testing';
 import { Bar } from '../foo/foo';
 import { FooProfile } from '../foo/foo.profile';

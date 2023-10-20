@@ -1,5 +1,5 @@
 import type { Mapper, MappingProfile } from 'automapper-core';
-import { AutomapperProfile, InjectMapper } from 'automapper-nestj';
+import { AutomapperProfile, InjectMapper } from 'automapper-nestjs';
 import { Injectable } from '@nestjs/common';
 import { addressProfile } from '../../classes/profiles/address.profile';
 
