@@ -1,3 +1,7 @@
+
+
+### [8.7.9](https://github.com/brdar/mapper-js/compare/8.7.8...8.7.9) (2023-10-20)
+
 ### 8.7.8 (2023-10-20)
 
 ### ⚠ BREAKING CHANGES
