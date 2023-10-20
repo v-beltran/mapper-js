@@ -1,11 +1,11 @@
-import { AutoMap, classes } from '@automapper/classes';
+import { AutoMap, classes } from 'automapper-classes';
 import {
     createMap,
     createMapper,
     forMember,
     mapFrom,
     Mapper,
-} from '@automapper/core';
+} from 'automapper-core';
 import { MapperPickType } from '../mapper-pick-type';
 
 describe(MapperPickType.name, () => {

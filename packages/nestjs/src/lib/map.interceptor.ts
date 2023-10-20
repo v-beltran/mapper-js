@@ -3,7 +3,7 @@ import type {
     MapOptions,
     Mapper,
     ModelIdentifier,
-} from '@automapper/core';
+} from 'automapper-core';
 import type {
     CallHandler,
     ExecutionContext,

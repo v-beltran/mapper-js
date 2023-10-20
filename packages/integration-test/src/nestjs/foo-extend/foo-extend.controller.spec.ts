@@ -1,5 +1,5 @@
-import { classes } from '@automapper/classes';
-import { CamelCaseNamingConvention } from '@automapper/core';
+import { classes } from 'automapper-classes';
+import { CamelCaseNamingConvention } from 'automapper-core';
 import { AutomapperModule } from '@automapper/nestjs';
 import { INestApplication } from '@nestjs/common';
 import { Test } from '@nestjs/testing';

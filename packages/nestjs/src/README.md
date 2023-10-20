@@ -16,16 +16,16 @@ yarn add @automapper/nestjs
 
 #### `peerDependencies`
 
-`@automapper/nestjs` depends on `@automapper/core`
+`@automapper/nestjs` depends on `automapper-core`
 
 ```sh
-npm i @automapper/core
+npm i automapper-core
 ```
 
 or with `yarn`:
 
 ```sh
-yarn add @automapper/core
+yarn add automapper-core
 ```
 
 ## Usage

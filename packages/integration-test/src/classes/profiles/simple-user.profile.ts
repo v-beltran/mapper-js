@@ -6,7 +6,7 @@ import {
     MapCallback,
     mapFrom,
     MappingProfile,
-} from '@automapper/core';
+} from 'automapper-core';
 import { SimpleUserDto } from '../dtos/simple-user.dto';
 import { SimpleUser } from '../models/simple-user';
 

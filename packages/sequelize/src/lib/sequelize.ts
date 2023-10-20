@@ -1,12 +1,12 @@
-import { classes } from '@automapper/classes';
+import { classes } from 'automapper-classes';
 import type {
     Constructor,
     Dictionary,
     MappingStrategyInitializer,
     MappingStrategyInitializerOptions,
     MetadataIdentifier,
-} from '@automapper/core';
-import { defaultStrategyInitializerOptions } from '@automapper/core';
+} from 'automapper-core';
+import { defaultStrategyInitializerOptions } from 'automapper-core';
 import type { Model } from 'sequelize';
 
 export function sequelize(

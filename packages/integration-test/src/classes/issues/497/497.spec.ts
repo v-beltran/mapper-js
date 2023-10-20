@@ -1,9 +1,9 @@
-import { AutoMap, classes } from '@automapper/classes';
+import { AutoMap, classes } from 'automapper-classes';
 import {
     CamelCaseNamingConvention,
     createMap,
     createMapper,
-} from '@automapper/core';
+} from 'automapper-core';
 
 export class UserEntity {
     @AutoMap()

@@ -1,9 +1,9 @@
 {
-    "name": "@automapper/mikro",
+    "name": "automapper-mikro",
     "version": "0.0.0",
     "type": "module",
     "peerDependencies": {
-        "@automapper/classes": "latest",
+        "automapper-classes": "latest",
         "@mikro-orm/core": "^5.0.0",
         "reflect-metadata": "~0.1.13"
     },
@@ -16,7 +16,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/nartc/mapper/tree/main/packages/mikro"
+        "url": "https://github.com/brdar/mapper-js/mapper/tree/main/packages/mikro"
     },
     "author": {
         "name": "Chau Tran",

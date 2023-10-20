@@ -7,7 +7,7 @@ import {
     MappingStrategyInitializer,
     MappingStrategyInitializerOptions,
     MetadataIdentifier,
-} from '@automapper/core';
+} from 'automapper-core';
 import 'reflect-metadata';
 import { getMetadataList } from './get-metadata-list';
 

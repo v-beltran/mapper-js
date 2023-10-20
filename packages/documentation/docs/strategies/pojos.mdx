@@ -12,16 +12,16 @@ sidebar_position: 2
 ## Installation
 
 ```shell
-npm i @automapper/core @automapper/pojos
+npm i automapper-core @automapper/pojos
 ```
 
 ```shell
-yarn add @automapper/core @automapper/pojos
+yarn add automapper-core @automapper/pojos
 ```
 
 ## Usage
 
-Different from `@automapper/classes`, `@automapper/pojos` exports a singleton `PojosMetadataMap` so we can provide the metadata for `pojos`.
+Different from `automapper-classes`, `@automapper/pojos` exports a singleton `PojosMetadataMap` so we can provide the metadata for `pojos`.
 
 ```ts
 interface User {
@@ -124,7 +124,7 @@ PojosMetadataMap.create<User>('User', {
 
 #### Enum
 
-Same as `@automapper/classes`, we still need to explicitly supply the Enum type
+Same as `automapper-classes`, we still need to explicitly supply the Enum type
 
 ```ts
 enum Role {
@@ -143,7 +143,7 @@ PojosMetadataMap.create<User>('User', {
 
 #### Array type
 
-Same as `@automapper/classes`, we still need to explicitly supply the Array type
+Same as `automapper-classes`, we still need to explicitly supply the Array type
 
 ```ts
 interface Address {
@@ -181,7 +181,7 @@ PojosMetadataMap.create<User>('User', {
 
 #### Circular Dependency
 
-Same as `@automapper/classes`, we can also have circular dependency with Interfaces.
+Same as `automapper-classes`, we can also have circular dependency with Interfaces.
 
 ```ts
 PojosMetadataMap.create<Bio>('Bio', {

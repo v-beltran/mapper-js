@@ -2,7 +2,7 @@ import type {
     CreateMapperOptions,
     ErrorHandler,
     NamingConventionInput,
-} from '@automapper/core';
+} from 'automapper-core';
 import type { ModuleMetadata, Type } from '@nestjs/common';
 
 export type AutomapperOptions =

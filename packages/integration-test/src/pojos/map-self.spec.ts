@@ -6,7 +6,7 @@ import {
     forSelf,
     fromValue,
     mapFrom,
-} from '@automapper/core';
+} from 'automapper-core';
 import { pojos, PojosMetadataMap } from '@automapper/pojos';
 import { CartItemDto } from '../classes/dtos/cart-item.dto';
 import { createCartItemDtoMetadata } from './dtos/cart-item.dto';

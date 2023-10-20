@@ -1,4 +1,4 @@
-import type { Mapper, MappingProfile } from '@automapper/core';
+import type { Mapper, MappingProfile } from 'automapper-core';
 import { AutomapperProfile, InjectMapper } from '@automapper/nestjs';
 import { Injectable } from '@nestjs/common';
 import { bioProfile } from '../../classes/profiles/bio.profile';

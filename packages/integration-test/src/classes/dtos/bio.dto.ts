@@ -1,4 +1,4 @@
-import { AutoMap } from '@automapper/classes';
+import { AutoMap } from 'automapper-classes';
 import { AddressDto, PascalAddressDto, SnakeAddressDto } from './address.dto';
 import { AvatarDto, PascalAvatarDto, SnakeAvatarDto } from './avatar.dto';
 

@@ -9,16 +9,16 @@ sidebar_label: Usage with NestJS
 ## Installation
 
 ```shell
-npm i @automapper/core @automapper/nestjs
+npm i automapper-core @automapper/nestjs
 ```
 
 ```shell
-yarn add @automapper/core @automapper/nestjs
+yarn add automapper-core @automapper/nestjs
 ```
 
 ### Strategy
 
-Recommendation is to use `@automapper/classes` in a NestJS application.
+Recommendation is to use `automapper-classes` in a NestJS application.
 
 ## Usage
 
@@ -26,7 +26,7 @@ Recommendation is to use `@automapper/classes` in a NestJS application.
 
 ```ts
 import { AutomapperModule } from '@automapper/nestjs';
-import { classes } from '@automapper/classes';
+import { classes } from 'automapper-classes';
 
 // single strategy
 @Module({
@@ -76,9 +76,9 @@ TBD: `AutomapperModule.forRootAsync()`
 
 ```ts
 import { AutomapperProfile, InjectMapper } from '@automapper/nestjs';
-import type { Mapper } from '@automapper/core';
+import type { Mapper } from 'automapper-core';
 import { Injectable } from '@nestjs/common';
-import { createMap } from '@automapper/core';
+import { createMap } from 'automapper-core';
 
 @Injectable()
 export class UserProfile extends AutomapperProfile {

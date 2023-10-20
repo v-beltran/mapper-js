@@ -1,8 +1,8 @@
 ---
-id: "index"
-title: "@automapper/pojos"
-slug: "/api/pojos/"
-sidebar_label: "README"
+id: 'index'
+title: '@automapper/pojos'
+slug: '/api/pojos/'
+sidebar_label: 'README'
 sidebar_position: 0
 custom_edit_url: null
 ---
@@ -25,16 +25,16 @@ yarn add @automapper/pojos
 
 #### `peerDependencies`
 
-`@automapper/pojos` depends on `@automapper/core`
+`@automapper/pojos` depends on `automapper-core`
 
 ```sh
-npm i @automapper/core
+npm i automapper-core
 ```
 
 or with `yarn`:
 
 ```sh
-yarn add @automapper/core
+yarn add automapper-core
 ```
 
 ## Usage
@@ -44,7 +44,7 @@ that uses `pojos` strategy.
 
 ```ts
 import { pojos, PojosMetadataMap } from '@automapper/pojos';
-import { createMapper, createMap, forMember, mapFrom } from '@automapper/core';
+import { createMapper, createMap, forMember, mapFrom } from 'automapper-core';
 
 const mapper = createMapper({
   ...,

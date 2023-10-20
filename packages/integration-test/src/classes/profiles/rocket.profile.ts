@@ -1,4 +1,4 @@
-import { createMap, forMember, mapFrom, Mapper } from '@automapper/core';
+import { createMap, forMember, mapFrom, Mapper } from 'automapper-core';
 import {
     CompositeFairingDto,
     EnginesDto,

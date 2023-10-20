@@ -1,41 +1,41 @@
-# @automapper/classes
+# automapper-classes
 
 This is the official strategy from `@automapper` to work with TS/ES6 Class
 
 ## Installation
 
 ```sh
-npm i @automapper/classes
+npm i automapper-classes
 ```
 
 or with `yarn`:
 
 ```sh
-yarn add @automapper/classes
+yarn add automapper-classes
 ```
 
 ### `peerDependencies`
 
-`@automapper/classes` depends on `@automapper/core` and `reflect-metadata`.
+`automapper-classes` depends on `automapper-core` and `reflect-metadata`.
 
 ```sh
-npm i @automapper/core reflect-metadata
+npm i automapper-core reflect-metadata
 ```
 
 or with `yarn`:
 
 ```sh
-yarn add @automapper/core reflect-metadata
+yarn add automapper-core reflect-metadata
 ```
 
 ## Usage
 
-`@automapper/classes` provides `classes` as a `MappingStrategyInitializer`. Pass `classes()` to `createMapper` to create
+`automapper-classes` provides `classes` as a `MappingStrategyInitializer`. Pass `classes()` to `createMapper` to create
 a `Mapper` that uses `classes` strategy.
 
 ```ts
-import { classes, AutoMap } from '@automapper/classes';
-import { createMapper, createMap, forMember, mapFrom } from '@automapper/core';
+import { classes, AutoMap } from 'automapper-classes';
+import { createMapper, createMap, forMember, mapFrom } from 'automapper-core';
 
 const mapper = createMapper({
   ...,

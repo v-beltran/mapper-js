@@ -1,5 +1,5 @@
-import { AutoMap, classes } from '@automapper/classes';
-import { createMap, createMapper, forMember, mapFrom } from '@automapper/core';
+import { AutoMap, classes } from 'automapper-classes';
+import { createMap, createMapper, forMember, mapFrom } from 'automapper-core';
 
 export class Idp {
     @AutoMap() id!: number;

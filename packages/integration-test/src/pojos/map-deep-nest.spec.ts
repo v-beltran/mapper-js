@@ -5,7 +5,7 @@ import {
     forMember,
     fromValue,
     SnakeCaseNamingConvention,
-} from '@automapper/core';
+} from 'automapper-core';
 import { pojos, PojosMetadataMap } from '@automapper/pojos';
 import {
     createDeepNestDtoMetadata,

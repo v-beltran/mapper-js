@@ -1,4 +1,4 @@
-import { classes } from '@automapper/classes';
+import { classes } from 'automapper-classes';
 import {
     CamelCaseNamingConvention,
     createMap,
@@ -6,7 +6,7 @@ import {
     forMember,
     fromValue,
     SnakeCaseNamingConvention,
-} from '@automapper/core';
+} from 'automapper-core';
 import {
     FooBarBazDto,
     FooBarBazQuxDto,

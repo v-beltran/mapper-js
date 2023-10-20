@@ -1,5 +1,5 @@
-import type { Constructor } from '@automapper/core';
-import { AutoMapperLogger } from '@automapper/core';
+import type { Constructor } from 'automapper-core';
+import { AutoMapperLogger } from 'automapper-core';
 import 'reflect-metadata';
 import { AUTOMAP_PROPERTIES_METADATA_KEY } from './keys';
 

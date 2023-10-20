@@ -2,7 +2,7 @@ import {
     addProfile,
     CamelCaseNamingConvention,
     createMapper,
-} from '@automapper/core';
+} from 'automapper-core';
 import { pojos, PojosMetadataMap } from '@automapper/pojos';
 import { UserDto } from './dtos/user.dto';
 import { User } from './models/user';

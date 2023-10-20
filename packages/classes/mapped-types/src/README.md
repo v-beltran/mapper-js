@@ -1,12 +1,12 @@
-# @automapper/classes/mapped-types
+# automapper-classes/mapped-types
 
-`@automapper/classes/mapped-types` is part of the public API of `@automapper/classes`.
+`automapper-classes/mapped-types` is part of the public API of `automapper-classes`.
 
-`@automapper/classes/mapped-types` is inspired by `@nestjs/mapped-types` to provide mixins to reduce some boilerplate code.
+`automapper-classes/mapped-types` is inspired by `@nestjs/mapped-types` to provide mixins to reduce some boilerplate code.
 
 ## Usage
 
-All `Mapper*Type` are exported from `@automapper/classes/mapped-types`
+All `Mapper*Type` are exported from `automapper-classes/mapped-types`
 
 ### `MapperPickType`
 

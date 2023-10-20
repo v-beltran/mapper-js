@@ -2,8 +2,8 @@ import type {
     Mapper,
     MappingConfiguration,
     MappingProfile,
-} from '@automapper/core';
-import { addProfile } from '@automapper/core';
+} from 'automapper-core';
+import { addProfile } from 'automapper-core';
 
 export abstract class AutomapperProfile {
     protected constructor(protected mapper: Mapper) {

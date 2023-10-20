@@ -1,9 +1,9 @@
-import { classes } from '@automapper/classes';
+import { classes } from 'automapper-classes';
 import {
     addProfile,
     CamelCaseNamingConvention,
     createMapper,
-} from '@automapper/core';
+} from 'automapper-core';
 import { UserDto } from './dtos/user.dto';
 import { User } from './models/user';
 import { addressProfile } from './profiles/address.profile';

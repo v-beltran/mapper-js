@@ -1,6 +1,6 @@
-import { AutoMap, classes } from '@automapper/classes';
-import type { Mapper } from '@automapper/core';
-import { createMap, createMapper, forMember, mapFrom } from '@automapper/core';
+import { AutoMap, classes } from 'automapper-classes';
+import type { Mapper } from 'automapper-core';
+import { createMap, createMapper, forMember, mapFrom } from 'automapper-core';
 import { MapperOmitType } from '../mapper-omit-type';
 
 describe(MapperOmitType.name, () => {

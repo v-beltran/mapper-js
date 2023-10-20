@@ -1,4 +1,4 @@
-import { classes } from '@automapper/classes';
+import { classes } from 'automapper-classes';
 import {
     CamelCaseNamingConvention,
     createMap,
@@ -7,7 +7,7 @@ import {
     mapFrom,
     namingConventions,
     typeConverter,
-} from '@automapper/core';
+} from 'automapper-core';
 import { Bio, Job, User } from './user';
 import { BioDto, UserDto } from './user.dto';
 
