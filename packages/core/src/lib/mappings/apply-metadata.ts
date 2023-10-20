@@ -84,7 +84,7 @@ export function defaultApplyMetadata(
 
             // get depth and count of the current key on the current model
             // Eg: Foo {bar: Bar}, model here is Foo and key is bar
-            const depth = getRecursiveValue(recursiveDepthMap, model, key);
+            const depth = getRecursiveValue(recursiveDepthMap, model, key) || 0;
             const count = getRecursiveValue(recursiveCountMap, model, key) || 0;
 
             // if no depth, just instantiate with new keyword without recursive
