@@ -110,10 +110,6 @@ export function replaceImportPath(
     if (!importPath) {
         return undefined;
     }
-
-    if (process.platform === 'win32') {
-      return typeReference.replace('import', 'require')
-    }
   
     importPath = importPath.slice(2, importPath.length - 1);
 
